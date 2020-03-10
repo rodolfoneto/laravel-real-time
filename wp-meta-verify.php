@@ -33,7 +33,7 @@ class WP_Meta_Verify
 
     public function bing_site_verification($code)
     {
-        return "<meta name=\"msvalidate.01\" content=\"$code\">R";
+        return "<meta name=\"msvalidate.01\" content=\"$code\">";
     }
 }
 
